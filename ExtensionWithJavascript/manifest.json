@@ -1,0 +1,13 @@
+{
+    "name": "Extension With Javascript",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "MyIcon.png",
+        "48": "MyIcon.png",
+        "128": "MyIcon.png"
+    },
+    "browser_action":{
+        "default_popup": "popup.html"
+    }
+}
