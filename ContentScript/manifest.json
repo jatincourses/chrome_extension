@@ -1,0 +1,13 @@
+{
+    "name": "Content Script Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": [
+            "https://developer.chrome.com/extensions/manifest"
+          ],
+          "js": ["content.js"]
+        }
+    ]
+}
